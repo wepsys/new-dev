@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <RootNamespace>Wepsys.DianaHr.Core</RootNamespace>
+	  <AssemblyName>Wepsys.DianaHr.Core</AssemblyName>
+	  <Nullable>enable</Nullable>
+	  <EnableNETAnalyzers>true</EnableNETAnalyzers>
+	  <AnalysisLevel>latest</AnalysisLevel>
+	  <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	  <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+</Project>
