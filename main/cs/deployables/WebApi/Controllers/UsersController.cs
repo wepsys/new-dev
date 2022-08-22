@@ -12,6 +12,7 @@ namespace Wepsys.DianaHr.WebApi.Controllers
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
+        private readonly IUserService _userService;
 
         public UsersController(IUserService userService)
         {
